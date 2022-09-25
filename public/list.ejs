@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정보 확인 관리자 페이지</title>
+</head>
+<body>
+    <h3>정보 확인 관리자 페이지</h3>
+    <table>
+        <% for(let j=0; j<data.length; j++){ %>
+        <tr>
+            <td><%= data[j] %></td>
+        </tr>
+        <% } %>
+    </table>
+    <form action="/list_delete" action="GET">
+        <input type="submit" value="전체삭제"/>
+    </form>
+</body>
+</html>

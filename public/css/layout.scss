@@ -1,0 +1,145 @@
+header{
+    width: 100%;
+    height: 918px;
+    background-image:url("../img/oem_main_img.jpg");
+    background-position:center;
+    background-size:cover;
+    .header-black{
+        height:918px;
+        background-color:#000;
+        opacity: 0.5;
+        .nav-bar{
+            height:918px;
+            display:flex;
+            padding-top:72px;
+            position:relative;
+            .logo{
+                width:160px;
+                margin-left:88px;
+                img{
+                    width: 100%;
+                }
+            }
+            nav{
+                ul{
+                    height:32px;
+                    display:flex;
+                    align-items: center;
+                    li{
+                        font-size: 18px;
+                        font-weight: 500;
+                        color:#fff;
+                        margin-left: 88px;
+                        word-break: keep-all;
+                        a{
+                            font-size: 18px;
+                            font-weight: 500;
+                            color:#fff;
+                        }
+                    }
+                }
+            }
+            .main-title{
+                position:absolute;
+                top:45%;
+                left:50%;
+                transform: translate(-50%, -50%);
+                h3{
+                    font-size:64px;
+                    font-weight:600;
+                    color:#fff;
+                }
+                p{
+                    margin-top:24px;
+                    font-size:20px;
+                    font-weight:300;
+                    color:#fff;
+                    text-align:center;
+                }
+            }
+        }
+    }
+}
+
+footer{
+    width:100%;
+    height:590px;
+    background-color:#2A2822;
+    .footer-center-wrap{
+        width:1200px;
+        margin:0 auto;
+        color:#fff;
+        display:flex;
+        justify-content:space-evenly;
+        align-items:center;
+        .footer-section-wrap{
+            .footer-content{
+                .call-wrap{
+                    padding-top:140px;
+                    display:flex;
+                    h5{
+                        font-size:18px;
+                        font-weight:500;
+                    }
+                    .call-text{
+                        margin-left:64px;
+                        font-size:14px;
+                        font-weight:400;
+                        line-height:170%;
+                    }
+                }
+            }
+            .footer-info{
+                display:flex;
+                margin-top:42px;
+                .instinctus-info{
+                    h5{
+                        font-size:18px;
+                        font-weight:500;
+                    }
+                    p{
+                        font-size:14px;
+                        font-weight:400;
+                        line-height:170%;
+                        &:nth-child(2){
+                            margin-top:18px;
+                        }
+                    }
+                }
+                .footer-inner-section-wrap{
+                    margin-left:164px;
+                    .chatting-info{
+                        h5{
+                            font-size:18px;
+                            font-weight:500;
+                        }
+                        p{
+                            font-size:14px;
+                            font-weight:400;
+                            margin-top:16px;
+                        }
+                    }
+                    .account{
+                        margin-top:28px;
+                        h5{
+                            font-size:18px;
+                            font-weight:500;
+                            line-height:130%;
+                        }
+                        p{
+                            font-size:14px;
+                            font-weight:400;
+                            line-height:170%;
+                            &:nth-child(2){
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+            .copyright{
+                margin-top:22px;
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.contact-wrap {
+  width: 100%;
+  background-color: #EEECEA;
+}
+.contact-wrap .center-wrap {
+  width: 1200px;
+  height: 2640px;
+  margin: 0 auto;
+}
+.contact-wrap .center-wrap .contact-title {
+  padding-top: 268px;
+}
+.contact-wrap .center-wrap .contact-title h3 {
+  font-size: 64px;
+  font-weight: 800;
+  color: #2C2A25;
+  text-align: center;
+}
+.contact-wrap .center-wrap .contact-title p {
+  width: 580px;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 500;
+  color: #2C2A25;
+  text-align: center;
+  line-height: 150%;
+  margin-top: 34px;
+}
+.contact-wrap .center-wrap .contact-content input[type=text] {
+  width: 640px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 34px;
+  padding: 20px;
+  border: 2px solid #A7A7A7;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #A7A7A7;
+}
+.contact-wrap .center-wrap .contact-content textarea {
+  width: 640px;
+  height: 910px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 34px;
+  padding: 20px;
+  border: 2px solid #A7A7A7;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #A7A7A7;
+}
+.contact-wrap .center-wrap .contact-content .file-upload {
+  width: 640px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 34px;
+  padding: 20px;
+  border: 2px solid #A7A7A7;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 500;
+  color: #A7A7A7;
+}
+.contact-wrap .center-wrap .contact-content .file-upload button {
+  cursor: pointer;
+}
+.contact-wrap .center-wrap .contact-content .agree {
+  width: 640px;
+  margin: 0 auto;
+}
+.contact-wrap .center-wrap .contact-content .agree .agree-inner {
+  display: flex;
+  align-items: center;
+  margin-top: 46px;
+}
+.contact-wrap .center-wrap .contact-content .agree .agree-inner input[type=checkbox] {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #A7A7A7;
+  background-color: transparent;
+  cursor: pointer;
+}
+.contact-wrap .center-wrap .contact-content .agree .agree-inner p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #A7A7A7;
+  margin-left: 48px;
+}
+.contact-wrap .center-wrap .contact-content input[type=submit] {
+  width: 640px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  background-color: #06262D;
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}/*# sourceMappingURL=contact.css.map */

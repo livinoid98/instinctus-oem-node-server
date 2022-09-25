@@ -1,0 +1,135 @@
+header {
+  width: 100%;
+  height: 918px;
+  background-image: url("../img/oem_main_img.jpg");
+  background-position: center;
+  background-size: cover;
+}
+header .header-black {
+  height: 918px;
+  background-color: #000;
+  opacity: 0.5;
+}
+header .header-black .nav-bar {
+  height: 918px;
+  display: flex;
+  padding-top: 72px;
+  position: relative;
+}
+header .header-black .nav-bar .logo {
+  width: 160px;
+  margin-left: 88px;
+}
+header .header-black .nav-bar .logo img {
+  width: 100%;
+}
+header .header-black .nav-bar nav ul {
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+header .header-black .nav-bar nav ul li {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 88px;
+  word-break: keep-all;
+}
+header .header-black .nav-bar nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+header .header-black .nav-bar .main-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header .header-black .nav-bar .main-title h3 {
+  font-size: 64px;
+  font-weight: 600;
+  color: #fff;
+}
+header .header-black .nav-bar .main-title p {
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 590px;
+  background-color: #2A2822;
+}
+footer .footer-center-wrap {
+  width: 1200px;
+  margin: 0 auto;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-content .call-wrap {
+  padding-top: 140px;
+  display: flex;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-content .call-wrap h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-content .call-wrap .call-text {
+  margin-left: 64px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info {
+  display: flex;
+  margin-top: 42px;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .instinctus-info h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .instinctus-info p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .instinctus-info p:nth-child(2) {
+  margin-top: 18px;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap {
+  margin-left: 164px;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap .chatting-info h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap .chatting-info p {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap .account {
+  margin-top: 28px;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap .account h5 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 130%;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap .account p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+}
+footer .footer-center-wrap .footer-section-wrap .footer-info .footer-inner-section-wrap .account p:nth-child(2) {
+  margin-top: 16px;
+}
+footer .footer-center-wrap .footer-section-wrap .copyright {
+  margin-top: 22px;
+}/*# sourceMappingURL=layout.css.map */
